@@ -1,0 +1,8 @@
+flags: {}
+packages:
+- '.'
+
+resolver: lts-14.20
+
+extra-deps:
+- number-0.1.1.0

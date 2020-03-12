@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ac5ca7e4a63816cfc4ef43c7331c16df9b14c7c2c47b69575ffde5e464fcf919
+-- hash: a1b0ef86b87d67e57def635aa8e1a2802d804a24a38b4917eb292045afaafea7
 
 name:           digits
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/digits#readme>
-homepage:       https://github.com/githubuser/digits#readme
-bug-reports:    https://github.com/githubuser/digits/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+homepage:       https://github.com/catsynth/digits#readme
+bug-reports:    https://github.com/catsynth/digits/issues
+author:         Amanda Chaudhary
+maintainer:     amanda@catsynth.com
+copyright:      2020 Amanda Chaudhary / CatSynth Appwerx, LLC
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,10 +23,11 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/digits
+  location: https://github.com/catsynth/digits
 
 library
   exposed-modules:
+      Digits
       Lib
   other-modules:
       Paths_digits
@@ -34,6 +35,8 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , number
+    , numbers
   default-language: Haskell2010
 
 executable digits-exe
@@ -46,6 +49,8 @@ executable digits-exe
   build-depends:
       base >=4.7 && <5
     , digits
+    , number
+    , numbers
   default-language: Haskell2010
 
 test-suite digits-test
@@ -59,4 +64,6 @@ test-suite digits-test
   build-depends:
       base >=4.7 && <5
     , digits
+    , number
+    , numbers
   default-language: Haskell2010
