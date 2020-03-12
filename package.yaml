@@ -1,10 +1,10 @@
 name:                digits
 version:             0.1.0.0
-github:              "githubuser/digits"
+github:              "catsynth/digits"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2020 Author name here"
+author:              "Amanda Chaudhary"
+maintainer:          "amanda@catsynth.com"
+copyright:           "2020 Amanda Chaudhary / CatSynth Appwerx, LLC"
 
 extra-source-files:
 - README.md
@@ -19,8 +19,13 @@ extra-source-files:
 # common to point users to the README.md file.
 description:         Please see the README on GitHub at <https://github.com/githubuser/digits#readme>
 
+digits:
+
+
 dependencies:
 - base >= 4.7 && < 5
+- numbers
+- number
 
 library:
   source-dirs: src
