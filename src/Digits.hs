@@ -1,4 +1,6 @@
 module Digits where
 import Data.Number.CReal
-
-piStr = showCReal 100 pi
+import Data.Char(digitToInt)
+  
+realDigits :: Int -> CReal -> [Int]
+realDigits n real = map digitToInt $ filter (/= '.') $ showCReal n real

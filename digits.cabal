@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a1b0ef86b87d67e57def635aa8e1a2802d804a24a38b4917eb292045afaafea7
+-- hash: 1473007e1ceac22b48ecd40eeaa6f2b02bc8e0522905d888cad49cf5d34d74de
 
 name:           digits
 version:        0.1.0.0
@@ -28,7 +28,6 @@ source-repository head
 library
   exposed-modules:
       Digits
-      Lib
   other-modules:
       Paths_digits
   hs-source-dirs:

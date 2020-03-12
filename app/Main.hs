@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Digits
 
 main :: IO ()
-main = someFunc
+main = putStrLn $ show $ realDigits 100 pi
